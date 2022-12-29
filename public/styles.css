@@ -1,0 +1,119 @@
+:root {
+    --paper-57mm: 215.43307087px;
+    /* 57mm */
+    --paper-75mm: 283.46456693px;
+    /* 75mm */
+    --paper-80mm: 302.36220472px;
+    /* 80mm */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: DejaVu Sans, sans-serif;
+    /* this font working with UTF-8 */
+    font-size: 12px;
+}
+
+.d-align-center {
+    text-align: center;
+}
+
+.d-align-right {
+    text-align: right;
+}
+
+.d-bold {
+    font-weight: 700;
+}
+
+.d-bigger {
+    font-size: 1.1rem;
+}
+
+.w-30-percent {
+    width: 30%;
+}
+
+.perfect-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.invoice-container {
+    padding: 1rem;
+    width: var(--paper-75mm);
+    border: 1px solid black;
+}
+
+.header-invoice {
+    text-align: center;
+    width: 100%;
+}
+
+.header-invoice .restaurant-logo {
+    width: 5rem;
+}
+
+.header-invoice .restaurant-info {
+    text-align: center;
+}
+
+.body-invoice {}
+
+.body-invoice .title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 2rem;
+}
+
+.body-invoice .info-container {
+    width: 100%;
+}
+
+.body-invoice .left-info {
+    text-align: left;
+}
+
+.body-invoice .right-info {
+    text-align: right;
+}
+
+.table-items {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.table-items td,
+th {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.table-items {
+    border-collapse: collapse;
+}
+
+.table-items-calculate {
+    text-align: right;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.table-items-calculate-container {
+    border-bottom: 1px solid #000;
+    padding-bottom: 2rem;
+}
+
+.table-items-calculate {
+    text-align: right;
+}
+
+.footer-invoice {
+    text-align: center;
+    margin-top: 2rem;
+}
